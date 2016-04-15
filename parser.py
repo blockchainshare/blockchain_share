@@ -1,7 +1,7 @@
-#/usr/bin/python 
+#!/usr/bin/python
 
 from blocktools import * 
-with open('1M.dat', 'rb') as blockfile: 
+with open('/home/rooda/git_share/git/blockchain_share/blocktools/1M.dat', 'rb') as blockfile: 
                 print "Magic Number:\t %8x" % uint4(blockfile) 
                 print "Blocksize:\t %u" % uint4(blockfile) 
                 """Block Header""" 
@@ -30,3 +30,4 @@ with open('1M.dat', 'rb') as blockfile:
                 print "Script Pub Key\t %s" % hashStr(script_pubkey) 
                 print "Lock Time %8x" % uint4(blockfile) 
                 print
+print sys.getdefaultencoding()

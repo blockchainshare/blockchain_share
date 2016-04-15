@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
+import os, sys
 import struct
 
 def uint1(stream): 
@@ -9,7 +12,7 @@ def uint4(stream):
 def uint8(stream): 
     return struct.unpack('Q', stream.read(8))[0] 
 def hash32(stream): 
-    return stream.read(32)[::­1] 
+    return stream.read(32)[:: 1] 
 def time(stream): 
     time = uint4(stream) 
     return time 
@@ -24,6 +27,9 @@ def varint(stream):
         return uint4(stream) 
     if size == 0xff: 
         return uint8(stream) 
-    return ­1 
+    return 1 
 def hashStr(bytebuffer): 
     return ''.join(('%x'%ord(a)) for a in bytebuffer)
+
+
+print sys.getdefaultencoding()
