@@ -8,3 +8,16 @@ python parer.py 실행
 SyntaxError: Non-ASCII character '\xc2' in file /home/rooda/git_share/git/blackchain_share/blocktools.py on line 12, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
 에러.. 해결못함
 
+2016/04/15
+
+SyntaxError: Non-ASCII character '\xc2' in file /home/rooda/git_share/git/blackchain_share/blocktools.py on line 12, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+에러해결
+
+실행 O
+
+sight.py code 추가
+
+블락이해
+parser.py 이해??
+
+
