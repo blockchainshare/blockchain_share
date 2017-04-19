@@ -1,0 +1,23 @@
+{
+  "name": "blockchain_share",
+  "version": "1.0.0",
+  "description": "hello, blockchain",
+  "main": "index.js",
+  "dependencies": {
+    "solc": "^0.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchainshare/blockchain_share.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchainshare/blockchain_share/issues"
+  },
+  "homepage": "https://github.com/blockchainshare/blockchain_share#readme"
+}
